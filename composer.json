@@ -1,0 +1,20 @@
+{
+  "name": "woisk/account",
+  "type": "library",
+  "license": "MIT",
+  "classmap": [
+    "src/controllers"
+  ],
+  "extra": {
+    "laravel": {
+      "aliases": {
+
+      },
+      "providers": [
+        "Woisk\\Account\\TaxiServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
